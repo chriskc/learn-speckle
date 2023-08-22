@@ -1,1 +1,1 @@
-# learn-speckle
+# techcomp-goridan

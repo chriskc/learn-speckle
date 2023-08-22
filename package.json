@@ -1,0 +1,36 @@
+{
+    "name": "techcomp-goridan",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup -c",
+        "watch": "rollup -c -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/junoliving/techcomp-goridan.git"
+    },
+    "author": "Juno Technical Computing",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/junoliving/techcomp-goridan/issues"
+    },
+    "homepage": "https://github.com/junoliving/techcomp-goridan#readme",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.4",
+        "@rollup/plugin-image": "^3.0.2",
+        "@rollup/plugin-node-resolve": "^15.2.0",
+        "@rollup/plugin-typescript": "^11.1.2",
+        "rollup": "^3.28.0",
+        "rollup-plugin-alias": "^2.2.0",
+        "rollup-plugin-serve": "^2.0.2"
+    },
+    "dependencies": {
+        "@speckle/objectloader": "^2.15.1",
+        "@speckle/viewer": "^2.15.1",
+        "three": "^0.140.0"
+    }
+}
